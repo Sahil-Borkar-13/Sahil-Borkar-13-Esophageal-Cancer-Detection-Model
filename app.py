@@ -115,7 +115,7 @@ elif app_mode == "🔬 Module Alpha: Automated Tissue Screening":
             st.markdown('<div class="clinical-card"><h4>Analytics Engine</h4></div>', unsafe_allow_html=True)
             if st.button("Execute Automated Screening", type="primary"):
                 with st.spinner("Analyzing structural matrices..."):
-                    classifier = tf.keras.models.load_model(r"models\classification\best_model_latest.keras")
+                    classifier = tf.keras.models.load_model("models\classification\best_model_latest.keras")
                     
                     img_input = cv2.resize(img, (300, 300))
                     img_input = np.expand_dims(img_input, axis=0)
@@ -155,7 +155,7 @@ elif app_mode == "🎯 Module Beta: Regional Boundary Localization":
             st.markdown('<div class="clinical-card"><h4>Localization Engine</h4></div>', unsafe_allow_html=True)
             if st.button("Delineate Region of Interest (ROI)", type="primary"):
                 with st.spinner("Executing spatial boundary segmentation..."):
-                    segmenter = YOLO(r"models\segmentation\best.pt")
+                    segmenter = YOLO("models\segmentation\best.pt")
                     
                     results = segmenter(img, conf=0.15, imgsz=512, retina_masks=True, verbose=False)[0]
                     
