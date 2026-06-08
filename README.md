@@ -1,5 +1,10 @@
 # Esophageal Cancer Detection App 🔬
 
+[![Streamlit App](https://static.streamlit.io/badge-streamlit.svg)](https://sahil-borkar-13-esophageal-cancer-detection-model-9m2jy3wdzza4.streamlit.app/)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![Framework-TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange)](https://tensorflow.org)
+[![Model-YOLOv8](https://img.shields.io/badge/Model-YOLOv8%20%2F%20Ultralytics-red)](https://github.com/ultralytics/ultralytics)
+
 An advanced Computer-Aided Diagnosis (CAD) suite featuring decentralized deep learning pipelines for automated esophageal tissue screening and pixel-level lesion boundary localization. Designed to provide high-precision decision support for gastroenterological evaluations.
 
 ---
