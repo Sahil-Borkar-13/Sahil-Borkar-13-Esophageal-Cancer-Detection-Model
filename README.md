@@ -66,3 +66,55 @@ Esophageal-Cancer-Detection/
 │   └── segmentation/
 │       └── best.pt
 └── README.md                   # System Documentation Portal
+```
+## 💻 UI/UX Features & Live Testing Matrix
+- Zero-Configuration Evaluation: Includes built-in medical-grade Sample Profiles (samples/) in the dashboard sidebar, allowing zero-click immediate testing without external clinical data.
+
+- Unified Workspace: Seamless file uploader for native high-resolution image analysis (.jpg, .jpeg, .png).
+
+- Advanced Multi-threading: Fully optimized path calls mapped to standard Unix/Linux server protocols to run perfectly across local environment boxes and remote Linux containers.
+
+- Interpretable Metric Reporting: Renders exact model inference intervals and spatial localization masks with sharp alpha-blended overlay visuals.
+
+## 🔧 Local Workspace Installation & Setup
+Deploy a mirror of this diagnostic suite onto your native workstation by replicating the following steps:
+
+- Prerequisites
+  - Python Engine: Version 3.11+
+
+  - Environment Utilities: Standard C++ build environments for optimized OpenCV matrices.
+
+### 1. Initialize and Clone
+```bash
+git clone [https://github.com/Sahil-Borkar-13/Sahil-Borkar-13-Esophageal-Cancer-Detection-Model.git](https://github.com/Sahil-Borkar-13/Sahil-Borkar-13-Esophageal-Cancer-Detection-Model.git)
+cd Sahil-Borkar-13-Esophageal-Cancer-Detection-Model
+```
+
+### 2. Isolate Virtual Sandbox Environment
+```bash
+# Windows Workstations
+python -m venv venv
+.\venv\Scripts\activate
+
+# Linux / Unix Workstations
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Target Dependencies
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Execute Native Web Server
+```bash
+streamlit run app.py
+```
+
+Your interface will instantly expose at http://localhost:8501.
+
+## 🤝 Project Contact Details
+- Author: Sahil Borkar
+- Production Link: [Streamlit Active Host](https://sahil-borkar-13-esophageal-cancer-detection-model-9m2jy3wdzza4.streamlit.app/)
+- Domain Focus: Computer Vision Engineering / Medical AI Deep Learning Systems.
