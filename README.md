@@ -91,7 +91,7 @@ Deploy a mirror of this diagnostic suite onto your native workstation by replica
 
 ### 1. Initialize and Clone
 ```bash
-git clone [https://github.com/Sahil-Borkar-13/Sahil-Borkar-13-Esophageal-Cancer-Detection-Model.git](https://github.com/Sahil-Borkar-13/Sahil-Borkar-13-Esophageal-Cancer-Detection-Model.git)
+git clone https://github.com/Sahil-Borkar-13/Sahil-Borkar-13-Esophageal-Cancer-Detection-Model.git
 cd Sahil-Borkar-13-Esophageal-Cancer-Detection-Model
 ```
 
@@ -121,5 +121,5 @@ Your interface will instantly expose at http://localhost:8501.
 
 ## 🤝 Project Contact Details
 - Author: Sahil Borkar
-- Production Link: [Streamlit Active Host](https://sahil-borkar-13-esophageal-cancer-detection-model-9m2jy3wdzza4.streamlit.app/)
+- Production Link: https://sahil-borkar-13-esophageal-cancer-detection-model-9m2jy3wdzza4.streamlit.app
 - Domain Focus: Computer Vision Engineering / Medical AI Deep Learning Systems.
